@@ -181,7 +181,8 @@ body {
     flex: 0 1 33.3%;
 }
 @media (max-width: 768px) {
-    .page__colum-1 {
+    .page__colum-1,
+    .page__colum-2 {
         flex-wrap: wrap;
     }
 }
