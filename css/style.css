@@ -179,16 +179,11 @@ body {
     display: flex;           
     flex: 0 1 33.3%;
 }
-@media (max-width: 768px) {
-    .page__colum-1,
-    .page__colum-2 {
-        flex-wrap: wrap;
-    }
-}
+
 .page__colum {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.497);
     border-radius: 25px;
-    background-color: rgb(109, 160, 157);
+     background-color: rgb(109, 160, 157);
     margin: 10px;
     padding: 10px;
     
@@ -223,8 +218,11 @@ body {
     display: flex;
     
 }
-.page__row-3 {
+.page__row-3 {   
 }
+
+
+
 .page__colum-3 { 
     background-color: rgb(109, 160, 157);
     border-radius: 20px;
@@ -232,7 +230,16 @@ body {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.497);
     padding: 10px;
     margin: 10px;
-   
+     
+}
+@media (max-width: 768px) {
+    .page__colum-3 {
+        display: block;
+    }
+    .page__colum-1,
+    .page__colum-2 {
+        flex-wrap: wrap;
+    }
 }
 .page__colum-imege-3 {
     flex: 0 1 20%;
