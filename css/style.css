@@ -175,8 +175,7 @@ body {
                              
     
 }
-.page__colum-1 { 
-   
+.page__colum-1 {    
     display: flex;           
     flex: 0 1 33.3%;
 }
@@ -187,6 +186,7 @@ body {
     }
 }
 .page__colum {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.497);
     border-radius: 25px;
     background-color: rgb(79, 180, 165);
     margin: 10px;
