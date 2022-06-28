@@ -220,7 +220,8 @@ body {
     display: flex;
     
 }
-.page__row-3 {   
+.page__row-3 { 
+    
 }
 
 
@@ -244,10 +245,11 @@ body {
     }
 }
 .page__colum-imege-3 {
-    background-color: rgba(254, 254, 255, 0.368);
+    background-color: #ffff;
     border-radius: 15px;
-    margin: 0px 10px 0px 0px;
+    margin: 0.5em;
     flex: 0 1 30%;
+    box-shadow: inset 2px 2px 20px rgba(0, 0, 0, 0.65);
 }
 .page__colum-imege-3 img {
     width: 100%;
@@ -256,19 +258,19 @@ body {
 
 }
 .page__colum-content-3 {
-    background-color: rgba(248, 251, 253, 0.294);
+    box-shadow: inset 2px 2px 20px rgba(0, 0, 0, 0.426);
     border-radius: 15px;
     flex: 0 1 70%;
-    padding: 10px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
+    background-color: #ffff;
+    margin: 0.5em;
 }
 .page__colum-title {
-    background-color: rgba(16, 30, 40, 0.16);
+    
     border-radius: 8px;
 }
 .page__colum-text {
-    background-color: rgba(19, 36, 47, 0.212);
-    border-radius: 8px;
-    flex: 1 1 auto;
+   
 }
