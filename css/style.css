@@ -191,6 +191,8 @@ body {
 .page__colum-imege {
     max-height: 100%;
     max-width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
 }
 .page__colum-imege img {
     max-width: 100%;
@@ -229,7 +231,7 @@ body {
     display: flex;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.497);
     padding: 10px;
-    margin: 20px 10px 0px 10px;
+  margin: 20px 10px 0px 10px;
      
 }
 @media (max-width: 768px) {
@@ -242,6 +244,8 @@ body {
     }
 }
 .page__colum-imege-3 {
+    background-color: #fff;
+    border-radius: 10px;
     flex: 0 1 30%;
 }
 .page__colum-imege-3 img {
@@ -252,6 +256,7 @@ body {
 }
 .page__colum-content-3 {
     flex: 0 1 70%;
+    padding: 10px;
 }
 .page__colum-title {
 }
