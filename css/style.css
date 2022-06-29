@@ -274,3 +274,24 @@ body {
 .page__colum-text {
    
 }
+.page__row-4 {
+
+    
+}
+.page__colum-4 {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    
+             
+}
+.page__colum-content-4 {
+   
+}
+.page__colum-imege-4 img {
+    width: 200px;
+  
+}
+.page__colum-imege-4 {
+    
+}
